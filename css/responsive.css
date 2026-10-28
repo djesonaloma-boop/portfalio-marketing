@@ -1,0 +1,60 @@
+@media (max-width: 900px) {
+  .site-header { padding-left: 18px; padding-right: 18px; }
+  .main-nav { gap: 12px; }
+  .main-nav a { font-size: 11px; }
+  .hero { gap: 15px; }
+  .hero h1 { font-size: clamp(36px,6vw,52px); }
+  .visual-orbit { width: 220px; height: 220px; }
+  .orbit-two { width: 270px; height: 270px; }
+  .creator-banner { margin-left: 20px; margin-right: 20px; }
+}
+@media (max-width: 680px) {
+  .site-header { min-height: 67px; padding: 10px 14px; }
+  .brand-mark { width: 39px; height: 39px; }
+  .brand-name { font-size: 12px; }
+  .brand-name small { font-size: 8px; }
+  .menu-toggle { display: block; }
+  .main-nav {
+    display: none; position: absolute; top: 66px; left: 0; right: 0;
+    padding: 15px; flex-direction: column; align-items: stretch; gap: 0;
+    background: #080f1e; border-bottom: 1px solid var(--border);
+  }
+  .main-nav.open { display: flex; }
+  .main-nav a { padding: 12px; font-size: 13px; }
+  .main-nav .nav-contact { text-align: center; margin-top: 6px; }
+  .hero {
+    display: flex; flex-direction: column; align-items: stretch;
+    padding: 48px 18px 35px; gap: 5px;
+  }
+  .hero h1 { font-size: clamp(37px,10vw,53px); letter-spacing: -1.4px; }
+  .hero-description { font-size: 13px; }
+  .hero-visual { min-height: 300px; margin-top: 15px; }
+  .visual-orbit { width: 225px; height: 225px; }
+  .orbit-two { width: 275px; height: 275px; }
+  .visual-card { width: 245px; padding: 20px; }
+  .chip-one { right: 3px; top: 22px; }
+  .chip-two { left: 2px; bottom: 20px; }
+  .trust-strip { padding: 15px 8px; gap: 4px; }
+  .trust-strip strong { font-size: 11px; }
+  .trust-strip span { font-size: 9px; }
+  .section { padding: 45px 15px; }
+  .project-grid, .service-grid { grid-template-columns: 1fr; }
+  .project-image { height: 200px; }
+  .project-content { padding: 17px; }
+  .service-card p { min-height: 0; }
+  .creator-banner {
+    margin: 0 15px; padding: 22px;
+    flex-direction: column; align-items: flex-start;
+  }
+  .creator-banner h2 { font-size: 24px; }
+  .site-footer { padding: 23px 16px; flex-direction: column; align-items: flex-start; }
+  .footer-links { flex-wrap: wrap; }
+  .contact-cta { padding-bottom: 55px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+  }
+}
