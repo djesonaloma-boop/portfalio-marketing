@@ -1,0 +1,29 @@
+[
+  {
+    "id": "vpn-pro",
+    "title": "JASON VPN PRO",
+    "category": "APPLICATION VPN",
+    "description": "Projet d'application VPN avec une interface mobile. Le tunnel sécurisé nécessite une infrastructure VPN configurée.",
+    "image": "img/2 vpn.png",
+    "url": "cas/cas-1.html",
+    "creator": "Jason Aloma"
+  },
+  {
+    "id": "jason-business",
+    "title": "JASON BUSINESS",
+    "category": "PLATEFORME DIGITALE",
+    "description": "Projet de plateforme pour présenter des services et des solutions numériques.",
+    "image": "img/Business.png",
+    "url": "cas/cas-2.html",
+    "creator": "Jason Aloma"
+  },
+  {
+    "id": "web-marketing",
+    "title": "WEB & MARKETING",
+    "category": "CRÉATION NUMÉRIQUE",
+    "description": "Concept de site web professionnel et de présentation de services.",
+    "image": "img/cas/cas-3.webp",
+    "url": "cas/cas-3.html",
+    "creator": "Jason Aloma"
+  }
+]
