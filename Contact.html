@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050914">
+<title>Contact — JASON DIGITAL</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><span class="brand-mark">J</span><span class="brand-name">JASON DIGITAL<small>CRÉATION NUMÉRIQUE 🇨🇩</small></span></a>
+<a class="btn btn-secondary" href="index.html">← Accueil</a>
+</header>
+<main class="section">
+<div class="section-heading">
+<span class="eyebrow">CONTACT OFFICIEL</span>
+<h1>Parlons de ton <span class="gradient-text">projet</span></h1>
+<p>Remplis les champs ci-dessous. Ton message sera préparé dans WhatsApp.</p>
+</div>
+<div class="project-card" style="max-width:650px;margin:auto;padding:24px">
+<form id="contactForm">
+<label for="name">Ton nom *</label>
+<input id="name" name="name" autocomplete="name" required placeholder="Ex. Jean">
+<label for="email">Ton e-mail (facultatif)</label>
+<input id="email" name="email" type="email" autocomplete="email" placeholder="nom@exemple.com">
+<label for="subject">Sujet</label>
+<select id="subject" name="subject">
+<option value="Demande d'information">Demande d'information</option>
+<option value="Création de site web">Création de site web</option>
+<option value="Application mobile">Application mobile</option>
+<option value="Marketing digital">Marketing digital</option>
+<option value="JASON VPN PRO">JASON VPN PRO</option>
+<option value="JASON BUSINESS">JASON BUSINESS</option>
+<option value="Autre projet">Autre projet</option>
+</select>
+<label for="message">Ton message *</label>
+<textarea id="message" name="message" required rows="5" placeholder="Explique ton projet..."></textarea>
+<button class="btn btn-primary" type="submit">Continuer sur WhatsApp ↗</button>
+<p id="formFeedback" aria-live="polite" style="font-size:12px;margin-top:12px"></p>
+</form>
+</div>
+<div class="center-action"><p>Ou écris directement au <strong>+243 847 500 590</strong></p><a class="btn btn-secondary" href="https://wa.me/243847500590" target="_blank" rel="noopener noreferrer">Ouvrir WhatsApp</a></div>
+</main>
+<footer class="site-footer"><p>© JASON DIGITAL — Créé par Jason Aloma 🇨🇩</p><a href="index.html">Accueil</a></footer>
+<script src="js/app.js" defer></script>
+<script src="js/contact.js" defer></script>
+</body>
+</html>
